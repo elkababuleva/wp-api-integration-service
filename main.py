@@ -1,5 +1,11 @@
-import requests
+from api_client import fetch_api_data
 
-response = requests.get("https://jsonplaceholder.typicode.com/posts")
+def main():
+    data = fetch_api_data()
 
-print(response.status_code)
+    if data:
+        print("Data fetched successfully!")
+        print(data)
+
+if __name__ == "__main__":
+    main()
