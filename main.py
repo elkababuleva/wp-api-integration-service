@@ -6,6 +6,7 @@ def main():
     if data:
         print("Data fetched successfully!")
         print(data)
+        print(len(data))
 
 if __name__ == "__main__":
     main()

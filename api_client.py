@@ -1,7 +1,6 @@
 import requests
 
-
-BASE_URL = "https://api.publicapis.org/entries"
+BASE_URL = "https://jsonplaceholder.typicode.com/posts"
 
 
 def fetch_api_data():
