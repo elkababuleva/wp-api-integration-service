@@ -1,17 +1,20 @@
 import requests
+from config import API_BASE_URL
 
-BASE_URL = "https://jsonplaceholder.typicode.com/posts"
 
-
-def fetch_api_data():
+def fetch_market_data(market):
     try:
-        response = requests.get(BASE_URL)
+        params = {
+            "market": market
+        }
+
+        response = requests.get(API_BASE_URL, params=params)
 
         if response.status_code == 200:
             return response.json()
-        else:
-            print(f"Error: {response.status_code}")
-            return None
+
+        print(f"Error: {response.status_code}")
+        return None
 
     except Exception as e:
         print(f"Request failed: {e}")

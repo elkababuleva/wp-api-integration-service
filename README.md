@@ -1,16 +1,14 @@
 # WP API Integration Service
 
-This project demonstrates how to fetch data from an external API using Python.
+Python service that:
 
-## Features
+- fetches external API data
+- filters market data
+- sends to WordPress
+- supports poultry, cattle, swine
 
-- Fetch data from an external API
-- Handle errors
-- Clean and simple project structure
+## run
 
-## Technologies
+pip install -r requirements.txt
 
-- Python
-- requests
-
-## Project Structure
+python main.py
