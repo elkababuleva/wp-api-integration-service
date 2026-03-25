@@ -5,7 +5,7 @@ Python service that:
 - fetches external API data
 - filters market data
 - sends to WordPress
-- supports poultry, cattle, swine
+- supports pandas, dolphins, butterflies
 
 ## run
 
