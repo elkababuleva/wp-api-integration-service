@@ -2,6 +2,7 @@ from api_client import fetch_market_data
 from data_processor import filter_market_data
 from wp_client import send_to_wordpress
 from config import MARKETS
+import logging
 
 
 def main():
