@@ -5,7 +5,8 @@ from config import MARKETS
 import logging
 
 logging.basicConfig(level=logging.INFO)
-logging.info("Script started")
+logger = logging.getLogger(__name__)
+logger.info("Script started")
 
 
 def main():
