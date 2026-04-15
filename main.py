@@ -4,6 +4,9 @@ from wp_client import send_to_wordpress
 from config import MARKETS
 import logging
 
+logging.basicConfig(level=logging.INFO)
+logging.info("Script started")
+
 
 def main():
     for market in MARKETS:
