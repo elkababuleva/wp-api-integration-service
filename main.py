@@ -10,6 +10,7 @@ logger.info("Script started")
 
 
 def main():
+    logger.info("Starting data pipeline...")
     for market in MARKETS:
         print(f"Fetching: {market}")
 
