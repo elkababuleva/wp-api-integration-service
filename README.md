@@ -12,3 +12,7 @@ Python service that:
 pip install -r requirements.txt
 
 python main.py
+
+## Logging
+
+The project uses Python logging to track the execution flow.
